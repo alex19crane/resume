@@ -1,1 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
+body{
+    background: #d6d4dd;
+    color: #262527;
+    font: normal 16.5px 'Roboto Mono', monospace;
+    letter-spacing: 1px;
+    word-spacing: -1px;
+    line-height: 25px; 
+}
+header p{
+    font-style: italic;
+}
+header p span{
+    font-weight: bold;
+}
+.socialNetwork a{
+    text-decoration: none;
+}
