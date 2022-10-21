@@ -8,6 +8,12 @@ body{
     word-spacing: -1px;
     line-height: 25px; 
 }
+header{
+    background-color: #A884BF;
+}
+.socialNetwork{ 
+    background-color: #D690BA; 
+}
 header p{
     font-style: italic;
 }
@@ -16,4 +22,28 @@ header p span{
 }
 .socialNetwork a{
     text-decoration: none;
+}
+.card{
+    border-radius: 10px;
+    margin: 10px;
+    padding-left: 20px;
+}
+.card, img{
+    border:2px solid #000;
+}
+.hobby{
+    background-color: #DAF3A3;
+}
+.work{
+    background-color: #FFFEAB;
+}
+.contackt{
+    background-color: #A884BF;
+}
+.img a img{
+    
+    border-bottom-left-radius: 20%;
+    border-top-right-radius: 20%;
+    border-top-left-radius: 2%;
+    border-bottom-right-radius: 2%;
 }
