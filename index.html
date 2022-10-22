@@ -12,11 +12,18 @@
     <title>My Resume</title>
 </head>
 <body>
-    <a target="_blank" href="img/myphoto.jpg"><img src="img/myphoto.jpg" alt="My Photo" width="30%"></a>
-    <h1>Алексей Журавлев</h1>
-    <p>Начинающий програмист, <b>front-end</b> разработчик</p>
-    <h3>Социальные сети</h3>
-    <p><a href="https://vk.com/alex19crane" target="_blank">VK</a> | <a href="https://t.me/klg_Alexey_Zhuravlev" target="_blank">Telegram</a></p>
+    <div class="img">
+        <a target="_blank" href="img/myphoto.jpg"><img src="img/myphoto.jpg" alt="My Photo" width="30%"></a>
+    </div>
+    <header class="card">  
+        <h1>Алексей Журавлев</h1>
+        <p>Начинающий програмист, <span>front-end</span> разработчик</p>
+    </header>
+    <div class="card socialNetwork">
+        <h3>Социальные сети</h3>
+        <a href="https://vk.com/alex19crane" target="_blank">VK</a> | <a href="https://t.me/klg_Alexey_Zhuravlev" target="_blank">Telegram</a>
+    </div>
+   <div class="card hobby">
     <h3>Мои хобби</h3>
     <ul>
         <li>Програмирование</li>
@@ -25,7 +32,9 @@
         <li>Тайский бокс</li>
         <li>Волонтерство</li>
     </ul>
-    <h3>Опыт работы</h3>
+   </div>
+    <div class="card work">
+        <h3>Опыт работы</h3>
     <table>
         <tr>
             <th>Название</th>
@@ -48,7 +57,7 @@
             <td>2012-2013</td>
         </tr>
         <tr>
-            <td>Вавилон Pizza&Sushi</td>
+            <td>Вавилон </td>
             <td>Официант</td>
             <td>2013-2014</td>
         </tr>
@@ -58,7 +67,9 @@
             <td>2015-наст.время</td>
         </tr>
     </table>
-    <h3>Связаться со мной</h3>
+    </div>
+    <div class="card contackt">
+        <h3>Связаться со мной</h3>
 
     <form action="/">
         <div>
@@ -82,6 +93,6 @@
             <input type="reset" value="Сбросить!">
         </div>
     </form>
-
+    </div>
 </body>
 </html>
