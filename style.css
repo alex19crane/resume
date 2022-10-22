@@ -20,30 +20,64 @@ header p{
 header p span{
     font-weight: bold;
 }
+.socialNetwork{
+    padding-bottom: 15px;
+}
 .socialNetwork a{
     text-decoration: none;
 }
 .card{
+    
     border-radius: 10px;
     margin: 10px;
     padding-left: 20px;
 }
 .card, img{
     border:2px solid #000;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.5);
 }
 .hobby{
+    
     background-color: #DAF3A3;
+    
 }
 .work{
     background-color: #FFFEAB;
+    padding-bottom: 15px;
 }
+.work table td{
+    padding: 5px;
+    
+    
+}
+    
 .contackt{
+   
     background-color: #A884BF;
+    padding-bottom: 15px;
+
+    
+}
+.contackt div{
+    padding-bottom: 10px;
 }
 .img a img{
-    
     border-bottom-left-radius: 20%;
     border-top-right-radius: 20%;
     border-top-left-radius: 2%;
     border-bottom-right-radius: 2%;
+}
+.container{
+    
+    max-width: 800px;
+    margin: auto;
+}
+.name input{
+    margin-left: 10px;
+}
+.topic input{
+    margin-left: 53px;
+}
+h1,h3{
+    text-shadow:4px 4px 14px rgba(0, 0, 0, 0.25);
 }
