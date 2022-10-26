@@ -1,83 +1,111 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
 
+/*main*/
 body{
-    background: #d6d4dd;
-    color: #262527;
-    font: normal 16.5px 'Roboto Mono', monospace;
-    letter-spacing: 1px;
-    word-spacing: -1px;
-    line-height: 25px; 
+    background-color: #eee;
 }
-header{
-    background-color: #A884BF;
+.conteiner{
+    display:flex;
+    max-width: 920px;
+    margin: 50px auto;
+    font-family: 'Arvo', serif;
+    font-size: 16px;
+    
 }
-.socialNetwork{ 
-    background-color: #D690BA; 
+/* Секция 1 */
+/* Класс для работы с фото */
+
+.avatar{
+    width: 200px;
+    height:200px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius:25px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius:15px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.3);
 }
-header p{
-    font-style: italic;
+.basic{
+    width:600px;
 }
-header p span{
+.info{
+    margin-left: 30px;
+}
+.location img, .heading img{
+    width:30px;
+}
+.location {
+    display: block;
+    color: #666
+}
+
+.header{
+    display: flex;
+}
+.personal{
+    margin-top: 20px;
+}
+.info-1{
+    border-left: 1px solid #777;
+    padding-left:35px;
+    margin-left: 13px;
+}
+
+/* Cелектор для работы со тегом Span */
+.info-1 p span{
+    color: #888;
     font-weight: bold;
 }
-.socialNetwork{
-    padding-bottom: 15px;
-}
-.socialNetwork a{
-    text-decoration: none;
-}
-.card{
-    
-    border-radius: 10px;
-    margin: 10px;
-    padding-left: 20px;
-}
-.card, img{
-    border:2px solid #000;
-    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.5);
-}
-.hobby{
-    
-    background-color: #DAF3A3;
-    
-}
-.work{
-    background-color: #FFFEAB;
-    padding-bottom: 15px;
-}
-.work table td{
-    padding: 5px;
-    
-    
-}
-    
-.contackt{
-   
-    background-color: #A884BF;
-    padding-bottom: 15px;
 
-    
-}
-.contackt div{
-    padding-bottom: 10px;
-}
-.img a img{
-    border-bottom-left-radius: 20%;
-    border-top-right-radius: 20%;
-    border-top-left-radius: 2%;
-    border-bottom-right-radius: 2%;
-}
-.container{
-    
-    max-width: 800px;
-    margin: auto;
-}
-.name input{
+.heading p{
     margin-left: 10px;
+    display: inline;
+    font-size: 1.17em;
+    font-weight: bold;
+    
 }
-.topic input{
-    margin-left: 53px;
+/* Cписки */
+.info-1 ul :last-child{
+    color: #888;
 }
-h1,h3{
-    text-shadow:4px 4px 14px rgba(0, 0, 0, 0.25);
+.info-1 ul :first-child{
+    font-weight: bold;
 }
+/* Селектор для работы с 'элементами списка' списками */
+.info-1 ul li, .info-1 ol li{
+    margin-bottom: 5px;
+}
+/* Селектор для работы со списками */
+.info-1 ul, .info-1 ol{
+    list-style: none;
+    padding: 0;
+}
+/* Селектор для работы с блоками */
+.card-light-theme{
+    background-color: white;
+    border:none;
+    border-radius:15px;
+    margin:20px;
+    padding: 10px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.3);
+
+}
+/* Секция 2 */
+.additional{
+    width:330px;
+}
+#email{
+    color: rgb(89, 89, 247);
+}
+.info-1 a img{
+    margin: 5px;
+    width: 45px;
+    filter: grayscale(100%);
+}
+.info-1 a img:hover{
+    filter: grayscale(0%);
+    transition: all 2s;
+}
+.additional h3{
+    margin-top: 5px;
+}
+
